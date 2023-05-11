@@ -42,6 +42,7 @@
             </div>
         </div>
         <script src="assets/js/script.js"></script>
+        <script src="assets/js/localisation.js"></script>
 </body>
 
 </html>
