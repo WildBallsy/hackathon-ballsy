@@ -13,7 +13,7 @@
 </head>
 <body>
     <a href="list.html" class="cta">Voir en liste</a>
-    <img src="assets/icon/filtre.png" href="filtre.html" class="cta-filtre">
+    <img src="assets/icon/filtre.png" href="/hackathon-ballsy/filtre.php" class="cta-filtre">
     <div id='map' style='width: 800px; height: 700px;'></div>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoibHVkaXZpbmU5MiIsImEiOiJjbGhqMGR2NHcwZGFzM2RwNTFuYzkxdHBqIn0.-A2WKx18Pk6is64Ynwja2A';
