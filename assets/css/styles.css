@@ -19,22 +19,26 @@ nav{
   background-color: white;
   display: flex;
   flex-direction: row;
-  /* margin-top: 167%;
-  margin-left: 9%; */
 }
+
 .icon{
-  width: 12%; 
+  width: 30%; 
 }
+
 .contenaire{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+
 }
 
 .iconcontenaire{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 100vw;
+  width: 50vw;
+  justify-content: space-around;
 }
 
 .iconcontenaire img,.ulcontenaire ul {
@@ -46,7 +50,10 @@ nav{
   flex-direction: row;
   font-size: small;
   justify-content: center;
-  width: 100vw;
+  width: 50vw;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 0px 80px;
   }
 
 .rectangle
@@ -105,7 +112,6 @@ text-decoration: none;
 ul {
   display: inline-block;
   flex-wrap: wrap;
-  background-color: antiquewhite;
   list-style-type: none;
 }
 

@@ -40,8 +40,8 @@ function toggleFilters() {
     
     const filterSelectionRect = filterSelection.getBoundingClientRect();
     filtersList.style.zIndex = '4';
-    filtersList.style.top = filterSelectionRect.bottom + '-10px';
-    filtersList.style.left = filterSelectionRect.left + '-10px';
+    filtersList.style.top = `${filterSelectionRect.bottom +10}px`;
+    filtersList.style.left = `${filterSelectionRect.left - 50}px`;
     document.body.appendChild(filtersList);
   } else {
     filtersList.remove();
