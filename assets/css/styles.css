@@ -1,3 +1,10 @@
 body {
   background-color: aqua;
 }
+
+
+ul {
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
