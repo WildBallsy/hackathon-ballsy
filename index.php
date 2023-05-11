@@ -12,6 +12,12 @@
 
 </head>
 <body>
+
+<button id="filterSelector"> Add filters </button>
+<script src="script.js"></script>
+</body>
+
+</html>
     <a href="list.html" class="cta">Voir en liste</a>
     <img src="assets/icon/filtre.png" href="filtre.html" class="cta-filtre">
     <div id='map' style='width: 800px; height: 700px;'></div>

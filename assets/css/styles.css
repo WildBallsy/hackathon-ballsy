@@ -85,3 +85,17 @@ text-decoration: none;
   position :absolute;
   z-index: 1; 
 }
+
+
+ul {
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  list-style-type: none;
+}
+
+
+#filterselector {
+  display: flex;
+  align-items: flex-end;
+}
