@@ -23,7 +23,7 @@
             container: 'map', // container ID
             style: 'mapbox://styles/ludivine92/clhj1p87401j201qygdbc34ch/draft', // style URL
             center: [7.95, 48.5734],
-            zoom: 9, // starting zoom
+            zoom: 11, // starting zoom
         });
     </script>
     <nav>
