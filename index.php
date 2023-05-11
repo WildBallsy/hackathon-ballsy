@@ -9,8 +9,9 @@
     <title>Ballsy</title>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
-
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
 
 <body>
     <a href="list.html" class="cta">Voir en liste</a>
@@ -32,15 +33,16 @@
         <div class="contenaire">
             <div class="iconcontenaire">
                 <img class="icon" src="assets/icon/carte.png">
+                <p> Carte</p>
+            </div>
+            <div class="iconcontenaire">
                 <img class="icon" src="assets/icon/plus.png">
+                <p> Ajouter</p>
+            </div>
+            <div class="iconcontenaire">
                 <img class="icon" src="assets/icon/commu.png">
+                <p> Communauté</p>
             </div>
-            <div class="ulcontenaire">
-                <ul>Carte</ul>
-                <ul>Ajouter</ul>
-                <ul>Communauté</ul>
-            </div>
-        </div>
         <script src="assets/js/script.js"></script>
         <script src="assets/js/localisation.js"></script>
 </body>
