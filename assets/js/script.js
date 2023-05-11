@@ -7,6 +7,7 @@ filterSelection.addEventListener('click', toggleFilters);
 function toggleFilters() {
   if (!filterListInvisible) {
     filtersList = document.createElement('ul');
+    filtersList.style.position = 'absolute';
 
     const filterOptions = [
       { id: 'couvert-filter', label: 'Couvert' },
@@ -36,7 +37,11 @@ function toggleFilters() {
     const categorizeOption = document.createElement('h3')
     categorizeOption.textContent = 'Type de sol'
     filtersList.insertBefore(categorizeOption, filtersList.childNodes[3]);
-
+    
+    const filterSelectionRect = filterSelection.getBoundingClientRect();
+    filtersList.style.zIndex = '4';
+    filtersList.style.top = filterSelectionRect.bottom + '-10px';
+    filtersList.style.left = filterSelectionRect.left + '-10px';
     document.body.appendChild(filtersList);
   } else {
     filtersList.remove();
