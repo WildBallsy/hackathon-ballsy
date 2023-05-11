@@ -51,9 +51,9 @@ nav{
   font-size: small;
   justify-content: center;
   width: 50vw;
-  background-color: antiquewhite;
+  background-color: rgba(240, 113, 17, 0.977);
   border-radius: 10px;
-  padding: 0px 80px;
+  padding: 0px 150px;
   }
 
 .rectangle
@@ -115,8 +115,20 @@ ul {
   list-style-type: none;
 }
 
+#line {
+background-color: rgba(128, 128, 128, 0.308);
+padding: 10px;
+border-radius: 10px;
+font-size: 12px;
+}
 
-#filterselector {
-  display: flex;
-  align-items: flex-end;
+#line h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#line li {
+  margin-top: 10px;
+}
+#line input {
+  margin-right:10px;
 }

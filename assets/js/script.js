@@ -8,6 +8,7 @@ function toggleFilters() {
   if (!filterListInvisible) {
     filtersList = document.createElement('ul');
     filtersList.style.position = 'absolute';
+    filtersList.id = 'line';
 
     const filterOptions = [
       { id: 'couvert-filter', label: 'Couvert' },
