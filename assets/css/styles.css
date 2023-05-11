@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif; 
 }
 
 body {
@@ -26,12 +27,13 @@ nav{
 }
 
 .contenaire{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vw;
-
+  width: 80vw; */
+display: flex;
+flex-direction: row;
 }
 
 .iconcontenaire{
@@ -39,6 +41,7 @@ nav{
   flex-direction: row;
   width: 50vw;
   justify-content: space-around;
+  align-items: center;
 }
 
 .iconcontenaire img,.ulcontenaire ul {
@@ -49,11 +52,16 @@ nav{
   display: flex;
   flex-direction: row;
   font-size: small;
+  align-items: center ;
   justify-content: center;
   width: 50vw;
-  background-color: rgba(240, 113, 17, 0.977);
-  border-radius: 10px;
-  padding: 0px 150px;
+  }
+
+  .ulcontenaire ul{
+    background-color: rgba(240, 113, 17, 0.977);
+    border-radius: 10px;
+    margin-left: 10px;
+    /* padding: 10px 10px; */
   }
 
 .rectangle
