@@ -10,7 +10,9 @@
 </head>
 
 <body>
-
+<button id="filterSelector"> Add filters </button>
+<script src="script.js"></script>
 </body>
 
 </html>
+
