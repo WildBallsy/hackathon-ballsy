@@ -10,10 +10,9 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     background-color: #F5F5F5;
   }
-  
+
 .fleche-retour{
     width: 40%;
 }
