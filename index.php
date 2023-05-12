@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
 
 <body>
+    <img src="/hackathon-ballsy/assets/icon/Logo.png" class="logo">
     <a href="list.html" class="cta color">Voir en liste</a>
     <img src="assets/icon/filtre.png" href="filtre.html" class="filterSelector" id="filterSelector">
     <div id='map' style='width: 100vw; height: 80vh;'></div>
