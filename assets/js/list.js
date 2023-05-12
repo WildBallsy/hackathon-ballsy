@@ -35,10 +35,23 @@ function getLocation() {
     records.forEach((record) => {
       const name = record.fields.nominstallation;
       const address = record.fields.adresse;
+      const couvert = record.fields.caract168;
+      const eclairage = record.fields.caract24;
+      const typeSol = record.fields.caract167;
+      
   
       const listItem = document.createElement("li");
-      listItem.innerHTML = `<h3>${name}</h3><p>${address}</p>`;
-  
+
+      const eclairageText = eclairage ? "Éclairé" : "Non éclairé";
+
+      listItem.innerHTML = `
+      <h3 class="list-item-name">${name}</h3>
+      <p class="list-item-address">${address}</p>
+      <p class="list-item-couvert">${couvert}</p>
+      <p class="list-item-eclairage">${eclairageText}</p>
+      <p class="list-item-type-sol">${typeSol}</p>
+    `;
+
       dataList.appendChild(listItem);
     });
   }

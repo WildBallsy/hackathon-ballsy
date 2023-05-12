@@ -13,9 +13,11 @@
     overflow: hidden;
     background-color: #F5F5F5;
   }
+  
 .fleche-retour{
     width: 40%;
 }
+
 .adresse li {
     background-color: #fff; 
     border-radius: 10px; 
@@ -26,6 +28,42 @@
     margin-right: auto;
     max-width: 300px;
     list-style-type: none;
+  }
+
+  .list-item-couvert {
+    color: #0B5345;
+    background-color: #76D7C4;
+    padding: 2px 4px;
+    border-radius: 10px;
+    font-size: small;
+    max-width: 80px;
+    height: 20px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  .list-item-eclairage {
+    color: #0B5345;
+    background-color: #76D7C4;
+    padding: 2px 4px;
+    border-radius: 10px;
+    font-size: small;
+    max-width: 80px;
+    height: 20px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  .list-item-type-sol {
+    color: #0B5345;
+    background-color: #76D7C4;
+    padding: 2px 4px;
+    border-radius: 10px;
+    font-size: small;
+    max-width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    display: inline-block;
   }
 
   .rectanglelist{

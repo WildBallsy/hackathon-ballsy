@@ -26,7 +26,7 @@ function showPosition(position) {
   let lon = position.coords.longitude;
   fetchData(lat, lon);
   map.setCenter([lon, lat]);
-  new mapboxgl.Marker({ color: "red" }).setLngLat([lon, lat]).addTo(map);
+  new mapboxgl.Marker({ color: "#F39C12" }).setLngLat([lon, lat]).addTo(map);
 }
 
 function fetchData(lat, lon, start = 0) {
