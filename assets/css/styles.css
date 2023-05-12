@@ -74,14 +74,12 @@ align-items: center;
 justify-content: center;
 }
 
-
-
 a{
 text-decoration: none;
+color: #3fb1ce;
 }
 
 .cta {
-  color: black;
   background: white;
   text-align: center;
   border-radius: 30px;
@@ -111,6 +109,9 @@ text-decoration: none;
   z-index: 1; 
 }
 
+#color {
+  color: #3fb1ce;
+}
 
 ul {
   display: inline-block;
@@ -119,7 +120,7 @@ ul {
 }
 
 #line {
-background-color: rgba(128, 128, 128, 0.308);
+background-color: rgba(255, 255, 255);
 padding: 10px;
 border-radius: 10px;
 font-size: 12px;
@@ -134,4 +135,9 @@ font-size: 12px;
 }
 #line input {
   margin-right:10px;
+}
+
+#inputLine {
+  display: flex;
+  align-items: center;
 }
