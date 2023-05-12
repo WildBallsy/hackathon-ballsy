@@ -1,97 +1,97 @@
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-  body {
-    font-family: Helvetica;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    align-items: center;
-  }
+body {
+  font-family: Helvetica;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
 
-  nav{
-    z-index: 10;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .icon{
-    width: 50%; 
-  }
-
-  .contenaire{
+nav{
+  z-index: 10;
+  background-color: white;
   display: flex;
   flex-direction: row;
-  width: 80vw;
-  justify-content: flex-end;
-  align-items: flex-end;
-  }
+}
 
-  .iconcontenaire{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.icon{
+  width: 50%; 
+}
 
-  .iconcontenaire img,.ulcontenaire ul {
-    padding: 10px;
-  }
+.contenaire{
+display: flex;
+flex-direction: row;
+width: 80vw;
+justify-content: center;
+align-items: flex-end
+}
 
-  .ulcontenaire{
-    display: flex;
-    flex-direction: row;
-    font-size: small;
-    align-items: center ;
-    justify-content: center;
-    width: 50vw;
-    }
-
-    .ulcontenaire ul{
-      background-color: rgba(240, 113, 17, 0.977);
-      border-radius: 10px;
-      margin-left: 10px;
-    }
-
-  .rectangle
-  {
-  border-radius: 5%;
-  width: 100vw;
-  height: 20vh;
-  background-color: white;
-  bottom: 0;
-  box-shadow: 0px 0px 12px 10px rgba(0,0,0,0.1);
-  position: absolute;
-  bottom: 0;
+.iconcontenaire{
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.iconcontenaire img,.ulcontenaire ul {
+  padding: 10px;
+}
+
+.ulcontenaire{
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  align-items: center ;
+  justify-content: center;
+  width: 50vw;
   }
 
-  a{
-  text-decoration: none;
-  color: #3fb1ce;
+  .ulcontenaire ul{
+    background-color: rgba(240, 113, 17, 0.977);
+    border-radius: 10px;
+    margin-left: 10px;
   }
+
+.rectangle
+{
+border-radius: 5%;
+width: 100vw;
+height: 20vh;
+background-color: white;
+box-shadow: 0px 0px 12px 10px rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 0;
+}
+
+a{
+text-decoration: none;
+color: #3fb1ce;
+}
 
 
 #map{
-  position :absolute;
-  z-index: 1; 
+position :absolute;
+z-index: 1; 
 }
 
 #color {
-  color: #3fb1ce;
+color: #3fb1ce;
 }
 
 ul {
-  display: inline-block;
-  flex-wrap: wrap;
-  list-style-type: none;
+display: inline-block;
+flex-wrap: wrap;
+list-style-type: none;
 }
 
 #line {
@@ -102,53 +102,94 @@ font-size: 12px;
 }
 
 #line h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 #line li {
-  margin-top: 10px;
+margin-top: 10px;
 }
 #line input {
-  margin-right:10px;
+margin-right:10px;
 }
 
 #inputLine {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 
 .navbar{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 90%;
-  justify-content: space-between;
-  margin-top: 5%;
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 90%;
+justify-content: space-between;
+margin-top: 5%;
 }
 
 .filterSelector {
-  z-index: 2;
-  background-color: white;
-  padding: 3%;
-  border-radius: 20%; 
-  width: 9%;
+z-index: 2;
+background-color: white;
+padding: 3%;
+border-radius: 20%; 
+width: 9%;
+box-shadow: 0px 0px 12px 10px rgba(0,0,0,0.1);
+}
+
+.logo {   
+  width: 20%;
+  height: auto;
+  z-index: 9;
+}
+
+.cta {
+  background: white;
+  text-align: center;
+  border-radius: 30px;
+  padding: 3% 6%;
+  z-index: 10;
+  font-size: small;
   box-shadow: 0px 0px 12px 10px rgba(0,0,0,0.1);
   }
 
-  .logo {   
-    width: 20%;
-    height: auto;
-    z-index: 9;
+  @media (min-width: 1000px) {
+      .contenaire{
+        width: 80%;
+        justify-content: space-between;
+      }
+
+      .cta,p, #color {
+        font-size: 30px;
+      }
+      .cta{
+        font-weight: bold;
+      }
+     li {
+      font-size: 25px;
+     }
+      .navbar {
+        height: 5vh;
+      }
+
+      .icon {
+        margin: 0px 40px 0px 40px;
+      }
+
+      .rectangle {
+        margin-bottom: 10px;
+      }
+
+      .contenaire {
+        justify-content: center;
+      }
+
+      #line {
+        border-radius: 30px;
+        padding: 2%;
+      }
+
+      input {
+        height: 1010%;
+      }
+
   }
-
-  .cta {
-    background: white;
-    text-align: center;
-    border-radius: 30px;
-    padding: 3% 6%;
-    z-index: 10;
-    font-size: small;
-    box-shadow: 0px 0px 12px 10px rgba(0,0,0,0.1);
-    }
-
