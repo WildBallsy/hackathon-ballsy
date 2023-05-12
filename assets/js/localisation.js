@@ -175,6 +175,8 @@ function showPosition(position) {
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
   fetchData(lat, lon);
+  map.setCenter([lon, lat]);
+  new mapboxgl.Marker({ color: "red" }).setLngLat([lon, lat]).addTo(map);
 }
 
 function fetchData(lat, lon, start = 0) {
