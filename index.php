@@ -13,9 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet"> </head>
 
 <body>
-    <img src="/hackathon-ballsy/assets/icon/Logo.png" class="logo">
-    <a href="list.html" class="cta color">Voir en liste</a>
-    <img src="assets/icon/filtre.png" href="filtre.html" class="filterSelector" id="filterSelector">
+    <div class='navbar'>
+        <img src="assets\icon\Logo.png" class="logo">
+        <a href="list.html" class="cta color">Voir en liste</a>
+        <img src="assets/icon/filtre.png" href="filtre.html" class="filterSelector" id="filterSelector">
+    </div>
     <div id='map' style='width: 100vw; height: 80vh;'></div>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoibHVkaXZpbmU5MiIsImEiOiJjbGhqMGR2NHcwZGFzM2RwNTFuYzkxdHBqIn0.-A2WKx18Pk6is64Ynwja2A';
