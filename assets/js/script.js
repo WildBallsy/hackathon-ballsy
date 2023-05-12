@@ -24,7 +24,7 @@ function toggleFilters() {
       const filterLine = document.createElement('li');
       const filterOption = document.createElement('input');
       filterOption.type = 'checkbox';
-      filterOption.id = option.id;
+      filterLine.id = 'inputLine';
       filterOption.addEventListener('click', handleFilterOption);
       const label = document.createElement('label');
       label.textContent = option.label;
@@ -37,6 +37,7 @@ function toggleFilters() {
 
     const categorizeOption = document.createElement('h3')
     categorizeOption.textContent = 'Type de sol'
+    categorizeOption.id = 'color'
     filtersList.insertBefore(categorizeOption, filtersList.childNodes[3]);
     
     const filterSelectionRect = filterSelection.getBoundingClientRect();

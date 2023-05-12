@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
 
 <body>
-    <a href="list.html" class="cta">Voir en liste</a>
+    <a href="list.html" class="cta color">Voir en liste</a>
     <img src="assets/icon/filtre.png" href="filtre.html" class="filterSelector" id="filterSelector">
     <div id='map' style='width: 100vw; height: 80vh;'></div>
     <script>
@@ -35,7 +35,7 @@
                 <p> Carte</p>
             </div>
             <div class="iconcontenaire">
-                <img class="icon" src="assets/icon/plus.png">
+                <img class="icon" src="assets/icon/plusbleu.png">
                 <p> Ajouter</p>
             </div>
             <div class="iconcontenaire">
