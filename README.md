@@ -2,8 +2,8 @@
 
 ![Home page](./images/readme.png)
 
-🎉 Ce projet est une application basée sur JavaScript, conçue lors d'un hackathon de 24 heures sur le thème du voyage.  
-Elle utilise la géolocalisation et un API pour localiser les terrains de pétanque à proximité de soit.  
+🎉 Ce projet est une application basée sur JavaScript, conçue lors d'un hackathon de 24 heures sur le thème des vacances.  
+Elle utilise la géolocalisation et un API pour localiser les terrains de pétanque à proximité de soi.  
 Elle a été réalisé dans le cadre de notre formation au sein de la Wild Code School de Strasbourg.
 
 ---
